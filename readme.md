@@ -9,5 +9,5 @@ Mano Projektas yra paprasta Web aplikacija, demonstruojanti pagrindines funkcija
 1. Klonuokite repozitoriją:
 
     ```shell
-    git clone <https://github.com/vartotojo_vardas/mano-projektas.git>
+    git clone <https://github.com/fuzikas/ptua17.git>
     ```
