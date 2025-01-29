@@ -1,0 +1,2 @@
+kodas = {}
+print(type(kodas))
