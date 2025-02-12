@@ -11,3 +11,8 @@ print(square(3))
 
 squared_sum = lambda num_uno, num_dos: (num_uno*num_uno) + (num_dos*num_dos)
 print(squared_sum(3,4))
+
+#3
+tuples_list = [(1,3), (4,1), (5,2), (2,4)]
+sorted_list = sorted(tuples_list, key=lambda x: x[1])
+print(sorted_list)
