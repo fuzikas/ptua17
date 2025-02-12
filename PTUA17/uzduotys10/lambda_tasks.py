@@ -8,3 +8,6 @@ square = lambda num_1: num_1 * num_1
 print(square(3))
 
 # 2
+
+squared_sum = lambda num_uno, num_dos: (num_uno*num_uno) + (num_dos*num_dos)
+print(squared_sum(3,4))
