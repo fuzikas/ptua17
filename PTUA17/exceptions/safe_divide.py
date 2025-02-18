@@ -12,5 +12,3 @@ def safe_divide(first_number:int, second_number:int)->float:
         return result
     finally:
         print("Attempted division")
-
-print(safe_divide(10,3))
