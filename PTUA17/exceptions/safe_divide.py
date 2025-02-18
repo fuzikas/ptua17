@@ -1,23 +1,3 @@
-# try:
-#     print("I am here!")
-#     print(2 / 0)
-# except Exception as e:
-#     print(f"Learn some basic math dude!,because off error: {e}")
-
-
-# try:
-#     # print("I am here!")
-#     print(2 / 0)
-# except ZeroDivisionError:
-#     print(f"CAN'T DIVIDE BY ZERO!")
-
-
-# try:
-#     input = int(input("Enter a number: "))
-#     print(input)
-# except Exception as e:
-#     print(f"Error: {e}")
-
 
 
 def safe_divide(first_number:int, second_number:int)->float:
