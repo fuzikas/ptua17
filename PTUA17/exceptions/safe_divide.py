@@ -8,7 +8,7 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
 )
 
-def safe_divide(first_number:int, second_number:int)->float:
+def safe_divide(first_number:int|None, second_number:int|None)->float:
 
     try:
         result = first_number/second_number
