@@ -1,4 +1,5 @@
 import logging
+from typing import Optional
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -8,7 +9,7 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
 )
 
-def safe_divide(first_number:int|None, second_number:int|None)->float:
+def safe_divide(first_number:Optional[int], second_number:Optional[int])->float:
 
     try:
         result = first_number/second_number
