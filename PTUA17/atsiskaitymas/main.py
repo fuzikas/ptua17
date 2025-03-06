@@ -1,10 +1,5 @@
 from funcs import *
 
-try:
-    with open ("tasks.json", "r") as my_file:
-        my_list = json.load(my_file)
-except json.JSONDecodeError:
-    my_list = []
 
 
 def list_manager():

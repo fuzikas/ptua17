@@ -1,0 +1,16 @@
+[
+    {
+        "Task": "buy a new car",
+        "Category": "personal",
+        "Due date": "12.12.29",
+        "Priority": 1,
+        "Done": false
+    },
+    {
+        "Task": "buy healthy food",
+        "Category": "work",
+        "Due date": "03.12.28",
+        "Priority": 2,
+        "Done": false
+    }
+]
