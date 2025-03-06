@@ -27,7 +27,7 @@ def listing_tasks()->None:
                 print(i["Task"],"[✔]")
 
 
-def removing_tasks(task_index:int)->None:
+def removing_tasks(task_index: int) -> None: #!!!!
     user_friendly_number = task_index-1
     my_list.pop(user_friendly_number)
     with open ("tasks.json", "w") as my_file:
@@ -47,11 +47,16 @@ def sorting_by_rating()->None:
     print(sorted_tasks)
 
 def finding_tasks()->None:
-    desired_task = input("What task you are interested in? ").lower
-    try:
-        for task in my_list:
-            if task["Task"]==desired_task:
-                print(task)
-    except Exception as e:
-        print(e)
+    desired_task = input("What task you are interested in? ")
+    lower_case = desired_task.lower()
+    a= None
+    for task in my_list:
+        if task["Task"]==desired_task:
+            a= task
+        elif task["Task"] !=desired_task:
+            continue
+    if a ==None:
+        print("Task does not exist")
+    else:
+        print(a)
 

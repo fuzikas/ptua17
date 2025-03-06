@@ -4,14 +4,14 @@ from funcs import *
 
 def list_manager()->None:
     while True:
-        choice = int(input(("\n===== To-Do List Manager ===== \n 1.Add task \n 2.View tasks \n 3.Mark task as completed \n 4.Remove task \n 5.Sort tasks by their rating \n 6.Find a task using its name \n 7.Exit \n Enter your choice: ")))
         try:
+         choice = int(input(("\n===== To-Do List Manager ===== \n 1.Add task \n 2.View tasks \n 3.Mark task as completed \n 4.Remove task \n 5.Sort tasks by their rating \n 6.Find a task using its name \n 7.Exit \n Enter your choice: ")))
 
          if choice == 1:
             try:
                 adding_task()
             except ValueError:
-                print("Failed to add, make sure that input an integer for Priority(1 = High, 2 = Medium, 3 = Low)")
+                print("Failed to add, make sure that you input an integer for Priority (1 = High, 2 = Medium, 3 = Low)")
          elif choice ==2:
                 listing_tasks()
          elif choice ==3:
