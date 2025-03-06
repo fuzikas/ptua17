@@ -2,7 +2,7 @@ from funcs import *
 
 
 
-def list_manager():
+def list_manager()->None:
     while True:
         choice = int(input(("===== To-Do List Manager ===== \n 1.Add task \n 2.View tasks \n 3.Mark task as completed \n 4.Remove task \n 5.Sort tasks by their rating \n 6.Find a task using its name \n 7.Exit \n Enter your choice: ")))
         try:
